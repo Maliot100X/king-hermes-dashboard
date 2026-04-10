@@ -1,0 +1,18 @@
+{
+  "name": "king-hermes-server",
+  "version": "2.0.0",
+  "description": "WebSocket server with real-time system metrics and agent spawning",
+  "main": "websocket-server.js",
+  "scripts": {
+    "start": "node websocket-server.js",
+    "dev": "node websocket-server.js"
+  },
+  "keywords": ["websocket", "agents", "monitoring"],
+  "author": "King Hermes",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "redis": "^4.6.0"
+  }
+}

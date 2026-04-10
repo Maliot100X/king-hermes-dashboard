@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Google Gemini star/spark shape -->
+  <path d="M32 4L38 26L60 32L38 38L32 60L26 38L4 32L26 26L32 4Z" fill="url(#gemini-gradient)"/>
+  <!-- Center circle -->
+  <circle cx="32" cy="32" r="8" fill="#FFFFFF"/>
+  <!-- Gradient for spark -->
+  <defs>
+    <linearGradient id="gemini-gradient" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4285F4"/>
+      <stop offset="25%" stop-color="#34A853"/>
+      <stop offset="50%" stop-color="#FBBC05"/>
+      <stop offset="75%" stop-color="#EA4335"/>
+      <stop offset="100%" stop-color="#4285F4"/>
+    </linearGradient>
+  </defs>
+</svg>

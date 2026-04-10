@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Roo Code stylized R/kangaroo shape -->
+  <circle cx="32" cy="32" r="28" fill="#9B59B6" stroke="#8E44AD" stroke-width="2"/>
+  <!-- R letter -->
+  <text x="32" y="42" text-anchor="middle" font-family="system-ui" font-size="28" font-weight="bold" fill="#FFFFFF">R</text>
+  <!-- Code brackets hint -->
+  <path d="M18 24L12 32L18 40" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M46 24L52 32L46 40" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

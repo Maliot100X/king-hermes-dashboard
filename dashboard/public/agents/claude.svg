@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Claude abstract hourglass/anthropic shape -->
+  <path d="M32 8C32 8 16 20 16 32C16 44 32 56 32 56C32 56 48 44 48 32C48 20 32 8 32 8Z" fill="#141413" stroke="#c96442" stroke-width="3"/>
+  <!-- Inner detail lines -->
+  <path d="M32 16V48" stroke="#c96442" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 24L40 40" stroke="#c96442" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M40 24L24 40" stroke="#c96442" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Anthropic spark -->
+  <circle cx="32" cy="32" r="4" fill="#c96442"/>
+</svg>

@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-abyss: #050507;
+  --color-carbon: #101010;
+  --color-charcoal: #3d3a39;
+  --color-emerald: #00d992;
+  --color-mint: #2fd6a1;
+  --color-snow: #f2f2f2;
+  --color-parchment: #b8b3b0;
+  --color-slate: #8b949e;
+  --color-king-gold: #FFD700;
+  --color-gemini: #4285F4;
+  --color-claude: #c96442;
+  --color-opencode: #fdfcfc;
+  --color-opencode-bg: #201d1d;
+  --color-roo: #9B59B6;
+  --color-openclaw: #FF6B35;
+
+  /* Font families */
+  --font-heading: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050507;
+  color: #f2f2f2;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101010;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d3a39;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00d992;
+}
+
+/* Hide scrollbar for cleaner UI */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Animation keyframes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(0, 217, 146, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(0, 217, 146, 0.8);
+  }
+}
+
+/* Utility classes */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to right, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-emerald {
+  background: linear-gradient(to right, #00d992, #2fd6a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
