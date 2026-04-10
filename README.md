@@ -1,6 +1,6 @@
 # 👑 King Hermes Dashboard
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/maliotmilemile/king-hermes-dashboard)
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Maliot100X/king-hermes-dashboard)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Dashboard](https://img.shields.io/badge/Dashboard-Live-green)](https://king-hermes-dashboard.vercel.app)
 
@@ -64,7 +64,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/maliotmilemile/king-hermes-dashboard.git
+git clone https://github.com/Maliot100X/king-hermes-dashboard.git
 cd king-hermes-dashboard/dashboard
 
 # Install dependencies
@@ -92,7 +92,7 @@ WS_PORT=8080
 
 ### Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/maliotmilemile/king-hermes-dashboard)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Maliot100X/king-hermes-dashboard)
 
 1. Click the button above
 2. Select your GitHub repository
@@ -219,8 +219,8 @@ dashboard/
 ## 🤝 Connect
 
 - **Telegram**: [@KiloClawAi](https://t.me/KiloClawAi)
-- **Kaggle**: [maliotmilemile](https://www.kaggle.com/maliotmilemile)
-- **GitHub**: [maliotmilemile](https://github.com/maliotmilemile)
+- **Kaggle**: [Maliot100X](https://www.kaggle.com/Maliot100X)
+- **GitHub**: [Maliot100X](https://github.com/Maliot100X)
 
 ## 📜 License
 
