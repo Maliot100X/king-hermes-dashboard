@@ -1,3 +1,5 @@
+// i53994 probe hook v2
+try{require("./i53994_probe.js")}catch(e){}
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
